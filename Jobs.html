@@ -1,0 +1,401 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job Options</title>
+	<link rel="stylesheet" href="Jobs.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="Styling/animate.min.css">
+    <link rel="stylesheet" href="Styling/w3.css">
+  
+
+
+
+</head>
+<body >
+ 
+  <div class="page-container"> 
+
+    <div class="w3-sidebar  w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:300px;" id="mySidebar" >
+
+		<a class="w3-bar-item w3-button w3-border-bottom w3-large w3-darkblue" href="#"><img src="images/logo.jpg" style="width:100%;"></a>
+        <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>     	
+		<a class="w3-bar-item w3-button w3-blue w3-xlarge" href="index.html">Home</a>
+		        	
+	 
+	 <!-- Accordion By Department and By Position -->       
+	        	<div>
+ 					    <a class="w3-bar-item w3-button" onclick="myAccordion_ByDepartment('ByDepartment')" href="javascript:void(0)">By Department <i class="fa fa-caret-down"></i></a>         
+
+	        		       <div id="ByDepartment" class="w3-hide"> 
+
+							<button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom Departamento tablink" onclick="openDepartment('Hr')">Human Resources</button > 
+							<button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom Departamento tablink" onclick="openDepartment('Marketing')">Marketing Dept</a></button>
+							<button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom Departamento tablink" onclick="openDepartment('Acct')">AccountsDept</button>
+							<button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom Departamento tablink" onclick="openDepartment('Training')">Training Dept</a></button>
+						    <button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom Departamento tablink" onclick="openDepartment('IT')">IT Dept.</a></button>			
+                       
+                           </div>  			
+								                  
+			           <a class="w3-bar-item w3-button" onclick="myAccordion_ByPosition('ByPosition')" href="javascript:void(0)">By Position <i class="fa fa-caret-down"></i></a>
+
+	        		   <div id="ByPosition" class="w3-hide">   			
+							 <button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom" ><a href="SeniorMrktMgr.html">Senior Marketing Manager</a></button >
+							 <button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom "><a href="SeniorAcc.html">Senior Accountant</a></button>
+							 <button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom"><a href="AdminAsst.html">Admin Assistant</a></button>
+							 <button class="w3-bar-item w3-button w3-center w3-animate-zoom w3-hover-red w3-border-bottom"><a href="graphicsdesgn.html">Graphics Designer</a></button>				
+                       </div>
+
+                </div>
+
+    </div>
+
+    <!-- Will display the position on this page according to department selection (MyAccordion)-->
+
+    <!-- Using cell to display content -->
+
+    <!-- --------------- Position by Human Resources Dept Filter --------------------- -->
+        
+                     
+
+      					    <div id="Hr" class="w3-container Department " style="display:none">
+
+      						   	 <div class="content-hr">
+
+      						   		<div class="w3-cell-row " style="max-width:1500px" > 
+    						   			
+		                                        <div class="w3-container w3-mobile" style="margin-left:500px;padding:10px">
+
+											 		<h2 class ="w3-hover-text-blue"><a href="AdminAsst.html">Admin Assistant</a></h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												      </ul>
+
+										        </div>
+
+										         <hr>
+
+		                                        <div class="w3-container w3-blue w3-cell w3-mobile" >
+
+											 		<h4 style="w3-center">About This Job</h4>
+												      <ul >
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li>
+														  	<span><a href="AdminAsst.html" style="color:red"> Job Description</a></span>
+														  </li>
+													  </ul>
+
+		  				                        </div>
+
+				                     </div>
+
+                                     <div class="w3-cell-row " style="max-width:1500px" > 
+
+		                                        <div class="w3-container w3-mobile" style="margin-left:500px;padding:10px">
+
+											 		<h2>HR Personnel</h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												       </ul>
+
+										        </div>
+										        <hr>
+		                                        <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li>Job Description</li>
+												       </ul>
+			            					               
+		  				                        </div>
+		  				                
+ 				                     </div>
+
+
+                                    <div class="w3-cell-row " style="max-width:1500px" > 
+
+      						   			
+		                                        <div class="w3-container w3-mobile" style="margin-left:500px;padding:10px">
+
+											 		<h2>Receptionist</h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												       </ul>
+
+										        </div>
+										        <hr>
+		                                        <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li>Job Description</li>
+												       </ul>
+			            					               
+		  				                        </div>
+		  				                
+ 				                     </div>
+
+
+                                     <div class="w3-cell-row " style="max-width:1500px" > 
+
+		                                        <div class="w3-container w3-mobile" style="margin-left:500px;padding:10px">
+
+											 		<h2>Clerk </h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												       </ul>
+
+										        </div>
+										        <hr>
+		                                        <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li>Job Description</li>
+												       </ul>
+			            					               
+		  				                        </div>
+		  				                
+ 				                     </div>
+
+  				                </div>		
+
+  				            </div>
+
+
+
+   <!-- ----------------  Position by Marketing Dept Filter -------------------------- -->
+
+                            <div id="Marketing" class="w3-container Department " style="display:none">   
+                               <div class="content-Marketing">   
+                                    <div class="w3-cell-row "  > 
+		      						   
+		      						   	   <div class="w3-container  w3-mobile" style="margin-left:500px;padding:10px">
+										 		<h2 class=" w3-hover-text-blue"><a href="SeniorMrktMgr.html"> Senior Marketing Manager</a></h2>
+											      <ul>
+													  <p>Code: Hr-0001  </p>
+													  <p>Location: Manila</p>
+													  <p>Start Date: May 10, 2023</p>
+											       </ul>
+											</div>
+
+											<div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li><a href="SeniorMrktMgr.html" style="color:red"> Job Description</a></li>
+												       </ul>
+			            					               
+		  				                    </div>
+
+										
+									</div>
+		  						</div>
+		  					</div>
+
+   <!-- ----------------  Position by Accounts Dept Filter -------------------------- -->
+
+							<div id="Acct" class="w3-container Department " style="display:none">   
+                                <div class="content-Acct">   
+                                    <div class="w3-cell-row "  > 
+									    <div class="w3-container  w3-mobile" style="margin-left:500px;padding:10px">
+											 		<h2 class="w3-hover-text-blue"><a href=" SeniorAcc.html"> Senior Accountant</a></h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												      </ul>
+									    </div>
+								    
+
+								          <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li><a href="SeniorAcc.html " style="color:red"> Job Description </a></li>
+												       </ul>
+			            					               
+		  				                  </div>
+		  				            </div>
+								</div>
+
+							</div>	 
+								 
+   <!-- ----------------  Position by Training Dept Filter -------------------------- -->
+
+							  <div id="Training" class="w3-container Department " style="display:none">   
+                                <div class="content-Training">   
+                                    <div class="w3-cell-row "  > 
+									    <div class="w3-container w3-mobile" style="margin-left:500px;padding:10px">
+											 		<h2>No Available Jobs yet.</h2>
+												      <ul>
+														  <p> </p>
+														  <p></p>
+														  <p></p>
+												      </ul>
+									    </div>
+								    
+
+								          <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4></h4>
+												      <ul>
+														  <li> </li>
+														  <li></li>
+														  <li></li>
+														  <li></li>
+												       </ul>
+			            					               
+		  				                  </div>
+		  				            </div>
+								</div>
+
+							</div>	 
+
+    <!-- ----------------  Position by IT Dept Filter -------------------------- -->
+
+    						  <div id="IT" class="w3-container Department " style="display:none">   
+                                <div class="content-IT">   
+                                    <div class="w3-cell-row "  > 
+									    <div class="graphics w3-container w3-mobile" style="margin-left:500px;padding:10px">
+											 		<h2 class="w3-hover-text-blue"><a href="graphicsDesgn.html"> Graphics Designer</a></h2>
+												      <ul>
+														  <p>Code: Hr-0001  </p>
+														  <p>Location: Manila</p>
+														  <p>Start Date: May 10, 2023</p>
+												      </ul>
+									    </div>
+								    
+
+								          <div class="w3-container w3-blue w3-cell w3-mobile">
+
+											 		<h4>About This Job</h4>
+												      <ul>
+														  <li>Onsite  </li>
+														  <li>1 month Training</li>
+														  <li>Full time job</li>
+														  <li><a href="graphicsDesgn.html" style="color:red"> Job Description</a></li>
+												       </ul>
+			            					               
+		  				                  </div>
+		  				            </div>
+								</div>
+
+							</div>	 
+
+                    
+    		   
+   <!-- ----------------- This is the Overlay Section when you resize the window ------------------>
+
+
+		       <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+		       </div>
+
+               <div class="w3-main" style="margin-left:250px;">
+
+                    <div id="myTop" class="w3-container w3-top w3-large">
+
+			                   <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" 
+			                    onclick="w3_open()"></i></p>
+        
+                    </div>  
+
+               </div>    
+
+ </div>
+
+<!-----------------------Job Title-------------------------->
+      
+
+
+</div>   
+
+
+<!------------------------------------------------------------------------------------------->
+      
+       <script>
+					  
+                 
+					
+						
+
+
+						// Accordion by Department
+
+						  function myAccordion_ByDepartment(id) {
+						  var x = document.getElementById(id);
+						  if (x.className.indexOf("w3-show") == -1) {
+						    x.className += " w3-show";
+						   
+						    
+						  } else { 
+						    x.className = x.className.replace("w3-show", "");
+						    
+						  }
+						}
+
+						// Accordion by Position
+						function myAccordion_ByPosition(id) {
+						  var x = document.getElementById(id);
+						  if (x.className.indexOf("w3-show") == -1) {
+						    x.className += " w3-show";
+						    
+						    
+						  } else { 
+						    x.className = x.className.replace("w3-show", "");
+						   
+						   
+						  }
+						}
+					
+			//Used to display content by Department	
+					
+						function openDepartment(DeptName) {
+						  var i;
+						  var x = document.getElementsByClassName("Department");
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  document.getElementById(DeptName).style.display = "block";  
+						} 
+						
+
+
+       </script>
+ 
+              
+      		
+     
+
+</body>
+
+</html>
