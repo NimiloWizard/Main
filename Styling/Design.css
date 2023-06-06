@@ -1235,8 +1235,8 @@ footer span a:hover{
 @media (max-width: 500px){
 	.navbar {
 	     padding: 5px;
-	     padding-left: 30px;
-	     padding-right: 80px;
+	     padding-left: 20px;
+	     padding-right: 90px;
 	}
 
 	.slides-about img{
