@@ -1276,6 +1276,12 @@ footer span a:hover{
 		margin: 0;
 	 }
 
+@media (max-width: 450px){
+	.Trainings .box .button1{
+		left: 150px;
+	}
+}
+
 .w3-theme-l5 {color:#000 !important; background-color:#f6f5f9 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#e1ddea !important}
 .w3-theme-l3 {color:#000 !important; background-color:#c3bcd6 !important}
