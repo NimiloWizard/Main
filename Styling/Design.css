@@ -136,7 +136,7 @@ section {
 	padding: 20px;
     display: flex;
 	/*background: linear-gradient(rgba(250, 252, 252, 0.986), rgba(253, 252, 252, 0.3));  */
-	background: url("../images/background.jpg") no-repeat center;
+	background: url("../Images/background.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	border-right: 2px solid darkgray;
@@ -586,7 +586,7 @@ section .title {
 	position: relative;
 	border: solid lightgray;
 	background: white;
-	background: url("../images/background.jpg") no-repeat center;
+	background: url("../Images/background.jpg") no-repeat center;
 	background-attachment: fixed;
 	height: 400px;
 	width: 48%;
@@ -638,7 +638,7 @@ section .title {
 	position: relative;
 	border: solid lightgray;
 	background: white;
-	background: url("../images/background.jpg") no-repeat center;
+	background: url("../Images/background.jpg") no-repeat center;
 	background-attachment: fixed;
 	height: 400px;
 	width: 48%;
@@ -722,7 +722,7 @@ section .title {
 
 .contact {
 	display: flex;
-	background: url("../images/banner-5.jpg") repeat center;
+	background: url("../Images/banner-5.jpg") repeat center;
 	background-size: cover;
 	background-attachment: scroll;
 	font-family: 'Montserrat', sans-serif;
@@ -1241,6 +1241,11 @@ footer span a:hover{
         width: auto;
 	   
 	}
+
+}
+.Trainings .box .button1{
+	left: 50px;
+}
     
 	.contact .right form .fields{
 		flex-direction: column;
