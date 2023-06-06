@@ -1238,17 +1238,24 @@ footer span a:hover{
 	.slides-about img{
 	  width: 100%;
 	}
+	
 	.about-info {
 	
         width: auto;
 	   
 	}
-
-	}
+     
+	
 	.Trainings .box .button1{
 		left: auto;
 		margin: 0px;
 	}
+	
+	.deployment .deployment-content .column  a{
+     	        padding-top: 0px;
+		padding-bottom: 10px;
+		font-size: 18px;
+        }
 
 	.deployment .deployment-content .column p{
 		padding-bottom: 0px;
