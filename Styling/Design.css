@@ -1114,7 +1114,7 @@ footer span a:hover{
      	font-size: 18px;
      }
 
-	 .deployment .deployment-content .column .bar{
+     .deployment .deployment-content .column .bar{
 		 padding-top: 10px;
 	 }
      .Trainings-content{
@@ -1123,16 +1123,16 @@ footer span a:hover{
 	}
      .careers .max-width{
         max-width: 4500px;
-	 }
-	 .careers .careers-content{
+    }
+     .careers .careers-content{
 		width: 100%;
 		display: block;
-	 }
+     }
 
     .careers .careers-content .column {
      width: 100%;
      margin-top: 10px;
-   } 
+     } 
   
    .careers .careers-content .left {
 	margin: 5px;
@@ -1141,7 +1141,7 @@ footer span a:hover{
 	height: 30em;
 	padding-right: 10px;
 	
-}
+   }
     .careers .careers-content .right{
        
     	justify-content: center;
@@ -1149,7 +1149,7 @@ footer span a:hover{
     	width: 100%;
 		padding: 10px 1em;
 		height: 32em;
-    }
+     }
     
   	.careers .careers-content  .left  .career1{
 		height: 20em;
@@ -1252,7 +1252,7 @@ footer span a:hover{
 	}
 	
 	.deployment .deployment-content .column  a{
-     	        padding-top: 0px;
+     	        margin-top: 0px;
 		padding-bottom: 10px;
 		font-size: 18px;
         }
@@ -1265,10 +1265,10 @@ footer span a:hover{
 		flex-direction: column;
 
 	}
-     .contact .right form .name,
-     .contact .right form .email{
-     	margin: 0;
-   }
+	     .contact .right form .name,
+	     .contact .right form .email{
+		margin: 0;
+	 }
 
 .w3-theme-l5 {color:#000 !important; background-color:#f6f5f9 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#e1ddea !important}
