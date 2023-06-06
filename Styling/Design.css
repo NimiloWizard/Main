@@ -1241,7 +1241,11 @@ footer span a:hover{
 	     padding-left: 20px;
 	     padding-right: 50px;
 	}
-
+        
+	.navbar .logo a {
+	    font-size: 30px;
+	    font-weight: 600;
+	}
 	.slides-about img{
 	  width: 100%;
 	}
