@@ -1194,7 +1194,9 @@ footer span a:hover{
 		height: 300px;
 		
 	}
-	
+	.deployment .deployment-content .column p{
+		padding-bottom: 5px;
+	} 
 	.Trainings-content{
 		display: block;
 
@@ -1242,11 +1244,15 @@ footer span a:hover{
 	   
 	}
 
-}
-.Trainings .box .button1{
-	left: auto;
-	margin: 0px;
-}
+	}
+	.Trainings .box .button1{
+		left: auto;
+		margin: 0px;
+	}
+
+	.deployment .deployment-content .column p{
+		padding-bottom: 0px;
+	} 
     
 	.contact .right form .fields{
 		flex-direction: column;
