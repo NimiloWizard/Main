@@ -1244,7 +1244,8 @@ footer span a:hover{
 
 }
 .Trainings .box .button1{
-	left: 50px;
+	left: auto;
+	margin: 0px;
 }
     
 	.contact .right form .fields{
