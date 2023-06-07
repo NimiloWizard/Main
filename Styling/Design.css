@@ -220,6 +220,10 @@ section .title {
    flex-basis: 60%;
   
    }
+ .about-info p span{
+    color: tomato;
+  
+   }
 
    .about-info .about-drop{
 	flex-basis: 60%;
