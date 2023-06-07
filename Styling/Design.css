@@ -121,7 +121,7 @@ body{
 	font-size: 30px;
 }
 .home .home-content .Text4{
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-left: 60px ;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -129,15 +129,15 @@ body{
 	color: rgb(122, 93, 149);
 }
 .home .home-content .Text5{
-	padding-top: 30px;
-	padding-left: 80px ;
+	
+	padding-left: 60px ;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: rgb(122, 93, 149);
 }
 .home .home-content .Text6{
-	padding-top: 30px;
+	
 	padding-left: 60px ;
 	font-size: 20px;
 	text-transform: uppercase;
