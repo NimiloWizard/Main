@@ -117,10 +117,11 @@ body{
 	font-size: 30px;
 }
 .home .home-content .Text4{
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-left: 60px ;
 	font-size: 20px;
 	text-transform: uppercase;
+	font-weight: 700;
 }
 .home .home-content a{
 	display: inline-block;
@@ -1056,6 +1057,7 @@ footer span a:hover{
     }
      .home .home-content .Text4{
     	font-size: 18px;
+	
     }
     .home .home-content a{
     	font-size: 18px;
