@@ -122,6 +122,7 @@ body{
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
+	color:  color: rgb(81, 45, 114);
 }
 .home .home-content a{
 	display: inline-block;
@@ -1044,7 +1045,7 @@ footer span a:hover{
     }
     .home .home-content {
 		
-	margin-left: -22px;
+	margin-left: -40px;
     }
     .home .home-content .Text2{
     	font-size: 22px;
