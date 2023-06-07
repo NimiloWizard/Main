@@ -24,11 +24,10 @@ body{
 	padding: 10px 0px;
 	font-family: 'Montserrat', sans-serif;
 	background: black;
-    z-index: 1;
-    background: url("../Images/about_summary.jpg") no-repeat center;
-
-    box-shadow:-10px 30px  10px black;
-    border-left: 5px solid black;
+	z-index: 1;
+	background: url("../Images/about_summary.jpg") no-repeat center;
+	box-shadow:-10px 30px  10px black;
+	border-left: 5px solid black;
 }
 
 .navbar.sticky{
@@ -122,7 +121,7 @@ body{
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color:  color: rgb(81, 45, 114);
+	color: rgb(81, 45, 114);
 }
 .home .home-content a{
 	display: inline-block;
@@ -1057,6 +1056,7 @@ footer span a:hover{
     	font-size: 18px;
     }
      .home .home-content .Text4{
+	padding-top: 30px
     	font-size: 18px;
 	
     }
@@ -1300,7 +1300,7 @@ footer span a:hover{
 	    font-weight: 600;
 	}
 	  .home .home-content {
-        	margin-left: -35px;
+        	margin-left: -40px;
         }
 	.Trainings .box .button1{
 		left: 130px;
