@@ -101,6 +101,10 @@ body{
 
 }
 
+.home .home-content{
+	padding-top: 30px;
+}
+
 .home .home-content .Text1{
 	padding-left: 60px ;
 	font-size: 30px;
