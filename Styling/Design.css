@@ -1052,6 +1052,9 @@ footer span a:hover{
      .home .home-content .Text3{
     	font-size: 18px;
     }
+     .home .home-content .Text4{
+    	font-size: 18px;
+    }
     .home .home-content a{
     	font-size: 18px;
     	padding: 10px 20px;
@@ -1249,7 +1252,7 @@ footer span a:hover{
 	}
         
 	.navbar .logo a {
-	    font-size: 30px;
+	    font-size: 25px;
 	    font-weight: 600;
 	}
 	.slides-about img{
@@ -1287,6 +1290,10 @@ footer span a:hover{
 	 }
 
 @media (max-width: 450px){
+	.navbar .logo a {
+	    font-size: 22px;
+	    font-weight: 600;
+	}
 	.Trainings .box .button1{
 		left: 130px;
 	}
