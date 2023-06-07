@@ -1027,11 +1027,13 @@ footer span a:hover{
 		transition: all 0.3s ease ;
 	}
 	 .navbar .menu.active {
-        left: 0%;
-	 }
-    .navbar .menu li{
+                left: 0%;
+	}
+	
+      .navbar .menu li{
     	display: block;
-    }
+        }
+	
     .navbar .menu li a{
     	display: inline-block;
     	margin: 20px;
@@ -1041,8 +1043,8 @@ footer span a:hover{
     }
     .home .home-content {
 		
-		margin-left: -22px;
-	}
+	margin-left: -22px;
+    }
     .home .home-content .Text2{
     	font-size: 22px;
      }
@@ -1294,6 +1296,9 @@ footer span a:hover{
 	    font-size: 22px;
 	    font-weight: 600;
 	}
+	  .home .home-content {
+        	margin-left: -35px;
+        }
 	.Trainings .box .button1{
 		left: 130px;
 	}
