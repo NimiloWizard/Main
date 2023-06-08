@@ -76,7 +76,7 @@ const sr = ScrollReveal ({
 });
 
 
-sr.reveal('.about-info', {delay:250, origin:'right'});
+// sr.reveal('.about-info', {delay:250, origin:'right'});
 sr.reveal('.slides-about, .header_text',{delay:250, origin:'left'});
 
 
