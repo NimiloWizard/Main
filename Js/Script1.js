@@ -70,7 +70,7 @@ const sr = ScrollReveal ({
     duration: 2600,
     delay: 350,
     mobile: true,
-    viewfactor: 20%,
+    viewfactor: 0.4,
     reset: true
 	
 
