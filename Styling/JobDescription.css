@@ -839,7 +839,27 @@ body{
 
 @media (max-width: 450px){
 
-      .image_visit .image1 img{
+     .qual_wrapper .qualification{
+        padding-bottom: 15px;
+        width: 420px;
+    }
+    .qual_wrapper .qualification p{
+        text-align: center;  
+        padding-left: 0px;
+    }
+
+    .qual_wrapper .qualifier{
+        margin-left: 0px;
+        width: 420px;
+        padding-left: 0px;
+
+    }
+
+	 /*----------- Comp & Ben ----------------*/
+	/*----------- Comp & Ben ----------------*/
+	/*----------- Comp & Ben ----------------*/
+	
+     .image_visit .image1 img{
    
         width:412px;
         height:400px;
