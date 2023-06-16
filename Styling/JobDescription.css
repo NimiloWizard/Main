@@ -839,6 +839,19 @@ body{
 
 @media (max-width: 450px){
 
+      .image_visit .image1 img{
+   
+        width:432px;
+        height:400px;
+        left: 5px;
+        
+    }
+    .image_visit .image2 img{
+        top: 0px;
+        left: 5px; 
+        width:432px;
+        height:400px;
+    }
 }
 
 
