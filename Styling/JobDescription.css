@@ -2,10 +2,12 @@
     margin: 0px auto;
     max-width: 1300px;
 }
- /*  
+ 
 body{
   /*  background-image: url("../Images/AForm1.jpg") ;*/
-    
+   
+	overflow-x: hidden;
+
     
 }
 
