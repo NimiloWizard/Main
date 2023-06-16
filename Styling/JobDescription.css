@@ -862,6 +862,12 @@ body{
         width: 360px;
         height: 300px;
     }
+
+    .card_visit{
+       
+        margin-left: 65px;
+        padding-bottom: 5px;
+    }
 	
    .image_visit .image1 img{
    
