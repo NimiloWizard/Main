@@ -839,9 +839,26 @@ body{
 
 @media (max-width: 450px){
 
-     .qual_wrapper .qualification{
+	
+	
+   .image_visit .image1 img{
+   
+        width:340px;
+        height:400px;
+        left: 5px;
+        
+    }
+    .image_visit .image2 img{
+        top: 0px;
+        left: 5px; 
+        width:340px;
+        height:400px;
+    }
+	
+    /*----------- Qualifications ----------------*/
+    .qual_wrapper .qualification{
         padding-bottom: 15px;
-        width: 370px;
+        width: 360px;
     }
     .qual_wrapper .qualification p{
         text-align: center;  
@@ -852,26 +869,25 @@ body{
         margin-left: 0px;
         width: 390px;
         padding-left: 0px;
+   }
 
-    }
+
 
 	 /*----------- Comp & Ben ----------------*/
-	/*----------- Comp & Ben ----------------*/
-	/*----------- Comp & Ben ----------------*/
 	
-     .image_visit .image1 img{
-   
-        width:330px;
-        height:400px;
-        left: 5px;
-        
-    }
-    .image_visit .image2 img{
-        top: 0px;
-        left: 5px; 
-        width:330px;
-        height:400px;
-    }
+	.compben_wrapper .Compben{
+        width: 390px;
+        margin-left: 0px;
+        padding-left: 0px;
+   }
+
+	
 }
+	
+
+
+/*----------- Comp & Ben ----------------*/
+ 
+
 
 
