@@ -838,12 +838,34 @@ body{
 }
 
 @media (max-width: 450px){
-
 	
+	.contact_container ul {
+             padding-left: 40px;
+      }
+	
+      .card_description .ContactUS i{
+         padding-left: 140px;
+         font-size: 30px;
+         padding-bottom: 20px;
+     }
+      
+
+       .description3 .left{
+        margin-bottom: 15px;
+        width: 360px;
+        height: 300px;
+    }
+     
+    
+    .description3 .right{
+        margin-bottom: 10px;
+        width: 360px;
+        height: 300px;
+    }
 	
    .image_visit .image1 img{
    
-        width:350px;
+        width:355px;
         height:400px;
         left: 5px;
         
@@ -851,7 +873,7 @@ body{
     .image_visit .image2 img{
         top: 0px;
         left: 5px; 
-        width:350px;
+        width:355px;
         height:400px;
     }
 	
