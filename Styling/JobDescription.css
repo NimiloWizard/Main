@@ -1,0 +1,842 @@
+*{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+ /*  
+body{
+  /*  background-image: url("../Images/AForm1.jpg") ;*/
+    
+    
+}
+
+/* ---------------- Menu ------------------------*/
+    .menu_button{
+        display: none;
+        cursor: pointer;
+    }
+        
+    .nav{
+        display: flex;
+        position: relative;
+        height: 90px;
+        width: 1300px;
+        position: fixed;
+        z-index: 1;
+        background-image: url("../Images/Digital6.jpg") ;
+        padding-top: 40px;
+        margin-left:15px;
+        margin-right: 10px;
+        background-size: cover;
+        border: 2px solid blue;
+        width: 100%;
+        
+    }
+    .nav .home{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        color: white;
+    }
+    .nav .contact{
+        position: absolute;
+        top: 40px;
+        left: 100px;
+    }
+    
+    .nav .visit{
+        position: absolute;
+        top: 40px;
+        left: 230px;
+
+    }
+    .nav .header{
+         position: absolute;
+         align-items: center;
+         align-content: center;
+         top: 10px;
+         left: 1100px;
+         
+         
+  }
+  .nav .header span{
+        color: blue;
+        
+  }
+  .nav .header a{
+    text-decoration: none;
+  }
+
+  /*----------- Job Title/Code ----------------*/
+
+  .Job_wrapper .title{
+    color: rgb(20, 62, 185);
+    font-size: 35px;
+    padding-top: 20px;
+
+}
+ .Job_wrapper .Job_Title {
+    color: rgb(20, 109, 20);
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+ }
+
+.position_wrapper .Code{
+    color: rgb(247, 120, 16);
+    font-size: 26px;
+}
+
+.position_wrapper .Position_Code{
+    color: rgb(20, 109, 20);
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+  /*----------- Qualifications -------*/
+.qual_wrapper{
+    display: flex;
+    position: relative;
+    
+}
+.qual_wrapper .qualification{
+    width: 300px;
+    margin-left: 0px;
+}
+.qual_wrapper .qualification p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 160px;
+}
+.qual_wrapper .qualifier{
+    margin-left: 0px;
+    width: 500px;
+    padding-left: 100px;
+}
+.qual_wrapper .qualifier p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+ /*----------- Duties and Responsilities -------*/
+
+ .duties_wrapper{
+    display: flex;
+    position: relative;
+}
+.duties_wrapper .duties{
+    width: 300px;
+    margin-left: 0px;
+    
+}
+.duties_wrapper .duties p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 160px;
+}
+.duties_wrapper .Responsibility{
+    margin-left: 0px;
+    width: 500px;
+    padding-left: 100px;
+}
+.duties_wrapper .Responsibility p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/*------------ Compen & Benefits ---------------*/
+
+.compben_wrapper{
+    display: flex;
+    position: relative;
+}
+.compben_wrapper .benefits{
+    width: 300px;
+    font-size: 18px;   
+     
+}
+
+.compben_wrapper .benefits p{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 160px;
+}
+.compben_wrapper .Compben{
+     width: 500px;
+     padding-left: 100px;
+     
+}
+.compben_wrapper .Compben p{
+    margin-left: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*------------ Contact Us Section ---------------*/
+
+.description3{
+    margin: 20px 30px;
+    display: flex;
+}
+
+.card_description .Howto, .letter, p{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card_description .ContactUS i{
+    padding-left: 300px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.card_description{
+    background-color: lightyellow;
+    opacity: 95%;
+    height: 300px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+
+.description3 .left  {
+  width: 660px;
+  height: 300px;
+  padding: 10px 5px;
+  box-shadow:-10px 30px  20px rgb(175, 174, 174);
+  background-color: transparent;
+}
+.description3 .left  .Howto{
+    padding-top: 10px;
+}
+
+.description3 .right  {
+    width: 660px;
+    height: 300px;
+    padding: 10px 5px;
+    box-shadow:-10px 30px  20px rgb(175, 174, 174);
+    background-color: transparent;
+  }
+  
+.description3 .right .contact_text {
+    padding-top: 10px;
+}
+  .description3 .right .contact_text,.contact_container {
+     padding-left: 30px;
+     
+  }
+  .contact_container ul li{
+    font-size:18px;
+  }
+
+  
+  .contact_container ul {
+    text-align: left;
+    list-style: none;
+    padding-left: 200px;
+  }
+
+  
+
+/*------------ VisitUS Section ---------------*/
+
+.VisitUs{
+    margin-top: 50px;
+    
+}
+.wrapper{ 
+    background-color: rgb(159, 163, 163);  
+    margin-top: 10px;
+}
+
+.card_visit{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 540px;
+    padding-bottom: 5px;
+}
+
+.visit_text p{
+    font-size: 15px;
+    color: white;
+}
+
+.image_visit{
+    display: flex;
+    position: relative;
+    height: 405px;
+    margin-left: 15px;
+    
+    
+}
+.image_visit .image1 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:620px;
+    height:400px;
+    
+}
+.image_visit .image2 img{
+    position: absolute;
+    top: -405px;
+    left: 635px; 
+    width:620px;
+    height:400px;
+    
+}
+
+/*----- Media Query -----*/
+
+@media (max-width: 1900px){
+    .nav{
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+    .nav .header span{
+        font-size: 35px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 1150px;
+        
+    }
+
+    .image_visit {
+        width: 630px;
+    }
+    .image_visit .image1 img{
+   
+        width: 632px;
+        height:400px;
+        transition: .3s;
+        
+    }
+    .image_visit .image1 img:hover{
+        cursor: pointer;
+        transform: scale(1.1)
+        
+    }
+    .image_visit .image2 img{
+        left: 632px; 
+        width:633px;
+        height:400px;
+        transition: .3s;
+    }
+    .image_visit .image2 img:hover{
+        cursor: pointer;
+        transform: scale(1.1)
+    }
+}
+
+@media (max-width: 1200px){
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 1100px;
+        
+    }
+    
+    .card_visit{
+       
+        margin-left: 430px;
+        padding-bottom: 5px;
+    }
+    .image_visit .image1 img{
+   
+        width: 580px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 580px; 
+        width:600px;
+        height:400px;
+    }
+}
+
+
+@media (max-width: 1150px){
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 1000px;
+        
+    }
+   
+    .card_visit{
+       
+        margin-left: 380px;
+        padding-bottom: 5px;
+    }
+    .image_visit .image1 img{
+   
+        width: 505px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 505px; 
+        width:505px;
+        height:400px;
+    }
+}
+
+
+@media (max-width: 1104px){
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 900px;
+        
+    }
+    .contact_container ul {
+        padding-left: 50px;
+     }
+   
+     .description3 .left  {
+       width: 520px;
+     }
+
+     .description3 .right  {
+       width: 520px;
+     }
+     
+     .contact_container ul {
+      
+       padding-left: 100px;
+     }
+     .card_description .ContactUS i{
+        padding-left: 230px;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+        
+    .card_visit{
+       
+        margin-left: 380px;
+        padding-bottom: 5px;
+    }
+    .image_visit .image1 img{
+   
+        width:500px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 500px; 
+        width:500px;
+        height:400px;
+    }
+}
+
+@media (max-width: 991px){
+    
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 800px;
+        
+    }
+      
+    .card_visit{
+       
+        margin-left: 280px;
+        padding-bottom: 5px;
+    }
+    .image_visit .image1 img{
+   
+        width:470px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 470px; 
+        width:470px;
+        height:400px;
+    }
+}
+
+@media (max-width: 951px){
+    .image_visit .image1 img{
+   
+        width:445px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 445px; 
+        width:400px;
+        height:400px;
+    }
+}
+
+    
+@media (max-width: 747px){
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 600px;
+        
+    }
+     .nav  {
+       gap: 5px;
+       font-size: 5px;
+       margin-left: 0px;
+       margin-right: 0px;
+     }
+    .card_visit{
+       
+        margin-left: 230px;
+        padding-bottom: 5px;
+    }
+    
+    .contact_container ul {
+      
+        padding-left: 25px;
+      }
+      .card_description .ContactUS i{
+         padding-left: 150px;
+         font-size: 30px;
+         padding-bottom: 20px;
+     }
+    .image_visit .image1 img{
+   
+        width:362px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 363px; 
+        width:362px;
+        height:400px;
+    }
+}
+
+@media (max-width: 690px){
+    
+    
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 500px;
+        
+    }
+    
+    .contact_container ul {
+      
+        padding-left: 0px;
+      }
+      .card_description .ContactUS i{
+         padding-left: 120px;
+         font-size: 30px;
+         padding-bottom: 20px;
+     }
+      
+     
+    .description3 .left{
+        margin-bottom: 15px;
+        width: 440px;
+        height: 350px;
+    }
+
+     
+    .description3 .right{
+        margin-bottom: 10px;
+        width: 440px;
+        height: 350px;
+    }
+    .card_visit{
+       
+        margin-left: 120px;
+        padding-bottom: 5px;
+    }
+    .image_visit .image1 img{
+   
+        width:300px;
+        height:400px;
+        
+    }
+    .image_visit .image2 img{
+        
+        left: 275px; 
+        width:275px;
+        height:400px;
+    }
+    
+        /*----------- Qualifications ----------------*/
+
+    .qual_wrapper{
+        display: block;
+     }
+
+    .qual_wrapper .qualification{
+        padding-bottom: 15px;
+        width: 450px;
+    }
+    .qual_wrapper .qualification p{
+        text-align: center;  
+        padding-left: 0px;
+    }
+
+    .qual_wrapper .qualifier{
+        margin-left: 0px;
+        width: 450px;
+        padding-left: 0px;
+    }
+    .qual_wrapper .list{
+        font-size: 13px; 
+    }
+
+         /*----------- Duties and respon ----------------*/
+
+    .duties_wrapper{
+         display: block;
+    }
+    .duties_wrapper .duties{
+        width: 450px;
+        padding-bottom: 15px;
+    }
+    .duties_wrapper .duties p{
+        text-align: center;  
+        padding-left: 0px;
+        
+    }
+    .duties_wrapper .Responsibility{
+        margin-left: 0px;
+        width: 450px;
+        padding-left: 0px;
+    }
+    .duties_wrapper .responsibilty-list{
+        font-size: 13px; 
+    }
+
+
+
+         /*----------- Comp & Ben ----------------*/
+
+    .compben_wrapper{
+        display: block;
+    }
+
+    .compben_wrapper .benefits{
+        padding-bottom: 15px;
+        width: 100px;
+    }
+    .compben_wrapper .benefits p{  
+        text-align: center;  
+        padding-left: 0px;
+    }
+        
+    .compben_wrapper .Compben{
+        width: 450px;
+        margin-left: 0px;
+        padding-left: 0px;
+   }
+    .compben_wrapper .Compben-list {
+        font-size: 13px; 
+    }
+}
+
+@media (max-width: 500px){
+
+    .nav{
+        background-color: blue;
+        opacity: .50px;
+    }
+ 
+    .nav .home span{
+        
+        font-size: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      
+    .nav .header span{
+        font-size: 25px;
+    }
+
+    .nav .header{
+        position: absolute;
+        top: 5px;
+        left: 370px;
+        
+    }
+    
+  
+    .description3{
+        display: block;
+        margin: 10px 15px;
+        
+        
+    }
+    .description3 .left{
+        margin-bottom: 15px;
+        width: 440px;
+        height: 300px;
+    }
+     
+    
+    .description3 .right{
+        margin-bottom: 10px;
+        width: 440px;
+        height: 300px;
+    }
+    
+    .card_description{
+        height: 300px;
+    }
+    .contact_container ul {
+      
+        padding-left: 60px;
+      }
+      .card_description .ContactUS i{
+         padding-left: 200px;
+         font-size: 30px;
+         padding-bottom: 20px;
+     }
+      
+    .card_visit{
+       
+        margin-left: 95px;
+        padding-bottom: 5px;
+    }
+    .VisitUs {
+        display: block;
+        
+        
+    }
+    .image_visit .image1 img{
+   
+        width:442px;
+        height:400px;
+        left: 5px;
+        
+    }
+    .image_visit .image2 img{
+        top: 0px;
+        left: 5px; 
+        width:442px;
+        height:400px;
+    }
+        
+         /*----------- Qualifications ----------------*/
+
+     .qual_wrapper{
+        display: block;
+     }
+
+    .qual_wrapper .qualification{
+        padding-bottom: 15px;
+        width: 450px;
+    }
+    .qual_wrapper .qualification p{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .qual_wrapper .qualifier{
+        margin-left: 0px;
+        width: 450px;
+        padding-left: 0px;
+    }
+    .qual_wrapper .list{
+        font-size: 13px; 
+    }
+
+         /*----------- Duties and respon ----------------*/
+
+    .duties_wrapper{
+         display: block;
+    }
+    .duties_wrapper .duties{
+        width: 450px;
+        padding-bottom: 15px;
+    }
+    .duties_wrapper .duties p{
+        text-align: center;
+        padding-left: 0px;
+        
+    }
+    .duties_wrapper .Responsibility{
+        margin-left: 0px;
+        width: 450px;
+        padding-left: 0px;
+    }
+    .duties_wrapper .responsibilty-list{
+        font-size: 13px; 
+    }
+
+
+
+         /*----------- Comp & Ben ----------------*/
+
+    .compben_wrapper{
+        display: block;
+    }
+
+    .compben_wrapper .benefits{
+        padding-bottom: 15px;
+        width: 160px;
+    }
+    .compben_wrapper .benefits p{  
+        text-align: center;  
+        padding-left: 0px;
+    }
+        
+    .compben_wrapper .Compben{
+        width: 450px;
+        margin-left: 0px;
+        padding-left: 0px;
+   }
+    .compben_wrapper .Compben-list {
+        font-size: 13px; 
+    }
+
+}
+
+@media (max-width: 450px){
+
+}
+
+
