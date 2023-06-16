@@ -841,7 +841,7 @@ body{
 
      .qual_wrapper .qualification{
         padding-bottom: 15px;
-        width: 390px;
+        width: 370px;
     }
     .qual_wrapper .qualification p{
         text-align: center;  
@@ -861,7 +861,7 @@ body{
 	
      .image_visit .image1 img{
    
-        width:380px;
+        width:330px;
         height:400px;
         left: 5px;
         
@@ -869,7 +869,7 @@ body{
     .image_visit .image2 img{
         top: 0px;
         left: 5px; 
-        width:380px;
+        width:330px;
         height:400px;
     }
 }
