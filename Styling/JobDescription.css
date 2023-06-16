@@ -844,7 +844,7 @@ body{
       }
 	
       .card_description .ContactUS i{
-         padding-left: 140px;
+         padding-left: 160px;
          font-size: 30px;
          padding-bottom: 20px;
      }
@@ -906,7 +906,7 @@ body{
     }    
     .duties_wrapper .Responsibility{
         margin-left: 0px;
-        width: 390px;
+        width: 370px;
         padding-left: 0px;
     }
 
