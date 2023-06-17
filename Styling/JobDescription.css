@@ -838,6 +838,28 @@ body{
 }
 
 @media (max-width: 450px){
+
+     .nav .home{
+        position: absolute;
+        top: 40px;
+        left: 3px;
+        color: white;
+    }
+    .nav .contact{
+        position: absolute;
+        top: 40px;
+        left: 93px;
+    }
+    
+    .nav .visit{
+        position: absolute;
+        top: 40px;
+        left: 223px;
+
+    }
+    .nav .header{
+        display: none;  
+  }
 	
 	.contact_container ul {
              padding-left: 40px;
