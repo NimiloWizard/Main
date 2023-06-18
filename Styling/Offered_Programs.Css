@@ -1971,27 +1971,33 @@ ul{
         width: 350px;
         margin: 20px;
     }
-    card img{
+    .card img{
         width: 350px;
     }
 
     .Courses1{
-        height: 260vh;
+        height: 240vh;
         margin-left: 15px;
     }
     .Courses2 {
-        height: 260vh;
+        height: 240vh;
         margin-left: 15px;
     }
     
     .Courses2_cont{
-        height: 235vh;
+        height: 215vh;
         margin-left: 15px;
     }
-    .testimonial{
-        height: 240vh;   
-    }
 
+	 /* ----------------------------------  TestimonialsA ---------------------------*/
+
+    .testimonial{
+        height: 220vh;   
+    }
+     .Individual{
+        margin: 25px; 
+        margin-left: 40px; 
+    }
 	
 }
 
