@@ -1942,14 +1942,25 @@ ul{
        padding-left: -20px;
     }
      
-     .Wrapper{
+     .Courses1 .Wrapper{
         display: block;
         margin-top: 1rem;
         margin-left: -40px;
         margin-bottom: 0px;
         width: 350px;
     }
-    .background1{       
+    .Courses2 .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: -40px;
+        margin-bottom: 0px;
+        width: 350px;
+    }
+    .Courses1 .background1{       
+        height: 100px;
+        width: 250px;         
+    } 
+    .Courses2 .background2{       
         height: 100px;
         width: 250px;         
     }
