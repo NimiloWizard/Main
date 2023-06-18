@@ -1852,10 +1852,11 @@ ul{
         padding-bottom: 20px;     
     }
 
+ 
     .Grid-herosection .HeroDesign .ContactUs_text{
         position: absolute;
         top:260px;
-        left: 235px;
+        left: 255px;
         width: 300px; 
         height: 100px;
     }
@@ -1863,18 +1864,29 @@ ul{
         position: absolute;
         height: 170px;
         width: 500px;
-        left: 170px;
+        left: 180px;
     }
    
-   /* --------------------------------  Content Section --------------------------------------*/
+   /* ----------  Content Section ---------------*/
 
     .Content .row {
         display: block;
-        margin-left: -20px;
+        margin-left: -25px;
         margin-right: 0px;
         justify-content: space-between;  
         gap: 20px;
    }
     
+    .cols {
+        margin-bottom: auto;
+        margin-top: 10px;
+        padding: 10px 0px;
+        align-items: center;
+        width: 410px;
+        border: 1px solid green;
+        height: 880px;
+        box-shadow: -25px 25px 35px  black;
+        margin-right:  20px;
+    }
 }
 
