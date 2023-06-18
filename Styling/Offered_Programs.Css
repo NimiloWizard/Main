@@ -1619,7 +1619,7 @@ ul{
         left: 150px;
     }
         
-             /* --------------- Content Section ----------------- */
+             /* ----------------------------------------------- Content Section ---------------------------------------- */
 
     .Content{
         margin: 40px;
@@ -1682,7 +1682,7 @@ ul{
         width: 400px;    
     }
 
-    /* ---------------Highlights and In Demand Courses-------------*/
+    /* ------------------------------------------Highlights and In Demand Courses-----------------------------------*/
 
         
     .Courses_header .Text-header{
@@ -1808,7 +1808,7 @@ ul{
         width: 400px;
         
     }
-    /* ------------- Testimonial ------------*/
+    /* ------------------------------------------ Testimonial --------------------------------*/
     .testimonial{
         height: 275vh;
         
@@ -1867,7 +1867,7 @@ ul{
         left: 200px;
     }
    
-   /* ----------  Content Section ---------------*/
+   /* -----------------------------------------------  Content Section -------------------------------------------*/
 
     .Content .row {
         display: block;
@@ -1875,12 +1875,12 @@ ul{
         margin-right: 0px;
         justify-content: space-between;  
         gap: 20px;
-        height: 420vh;
+        height: 320vh;
    }
     
     .cols {
         margin-bottom: auto;
-        margin-top: 25px;
+        margin-top: 30px;
         padding: 10px 0px;
         align-items: center;
         width: 370px;
@@ -1990,7 +1990,7 @@ ul{
         margin-left: 15px;
     }
 
-	 /* ----------------------------------  TestimonialsA ---------------------------*/
+	 /* ----------------------------------  TestimonialsA ----------------------------------------*/
 
     .testimonial{
         height: 225vh;   
