@@ -1939,8 +1939,22 @@ ul{
         margin-left: -30px;
     }
     .Courses_header .Text-header2 p{
-       padding-left: 0px;
+       padding-left: -20px;
     }
+     
+     .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 350px;
+    }
+    .background1{       
+        height: 100px;
+        width: 250px;         
+    }
+
+}
 
 	
 }
