@@ -1945,24 +1945,27 @@ ul{
      .Courses1 .Wrapper{
         display: block;
         margin-top: 1rem;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-bottom: 0px;
         width: 350px;
     }
     .Courses2 .Wrapper{
         display: block;
         margin-top: 1rem;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-bottom: 0px;
         width: 350px;
     }
     .Courses1 .background1{       
         height: 100px;
-        width: 250px;         
+        width: 280px;         
     } 
     .Courses2 .background2{       
         height: 100px;
-        width: 250px;         
+        width: 280px;         
+    }
+     .Fundamentals, .Intermediate, .Advance {
+        margin-left: -30px;
     }
 
 	
