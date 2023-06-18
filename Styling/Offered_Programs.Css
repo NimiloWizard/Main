@@ -9,6 +9,9 @@
     transition: all 1s ease;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .max-width{
     max-width: 1300px;
@@ -44,16 +47,24 @@
 	font-size: 30px;
 	font-weight: 600;
 }
-
-.nav_bar .max-width  ul{
-    display: flex;
+.menu-button{
+	cursor: pointer;
+}
+.nav_bar .list li a{
+    
     color: rgb(247, 247, 252);
     text-decoration: none;
     list-style: none;
     gap: 20px;
     font-weight: bold;
     font-size: 20px;  
-     
+    transition: all .55s ease;
+
+}
+.nav_bar .list li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
 }
 
 .max-width li a:hover{
@@ -61,7 +72,13 @@
      
 }
 
+.nav_bar.sticky{
 
+	padding: 8px 60px;
+	box-shadow:-10px 10px  10px black;
+	background-color: blue;
+	
+}
 
 /* --------Hero Section----------------*/
 
@@ -191,14 +208,12 @@
     transition: all .40s ease;
     font-weight: bold;
     background: transparent;
-    
    
-    
 }
 .Grid-Item .Form-box .btn-submit:hover{
     cursor: pointer;
     background-color: rgb(41, 6, 238);
-    color: rgb(15, 15, 15);
+    color: white;
 }
 
 .Grid-Item .Form-box .Submit{
@@ -452,13 +467,13 @@
 
 /* --------  In Demand courses content----------------*/
 
-.Courses{
+.Courses_header{
     
     max-width: 100%;
     margin: 0px 30px;
     
 }
-.Courses .Text-header{
+.Courses_header .Text-header{
     display: flex;
     position: relative;
     margin-top: 10rem;
@@ -474,7 +489,7 @@
     
 }
 
-.Courses .Text-header .Cert1{
+.Courses_header .Text-header .Cert1{
     height: 250px;
     width: 80px;
     position: absolute;
@@ -485,7 +500,7 @@
 
 }
 
-.Courses .Text-header .Cert2{
+.Courses_header .Text-header .Cert2{
     height: 250px;
     width: 80px;
     position: absolute;
@@ -496,7 +511,7 @@
 }
 
     
-.Courses .Text-header .Cert3{
+.Courses_header .Text-header .Cert3{
     height: 250px;
     width: 80px;
     position: absolute;
@@ -506,7 +521,7 @@
     z-index: 3;
 }
 
-.Courses .Text-header .Cert4{
+.Courses_header .Text-header .Cert4{
     
     position: absolute;
     height: 250px;
@@ -517,13 +532,13 @@
     z-index: 4;
 }
 
-.Courses .Text-header span{
+.Courses_header .Text-header span{
     font-style: italic;
     font-size: 60px;
     font-weight: bold;
     
 }
-.Courses .Text-header2{
+.Courses_header .Text-header2{
     margin-bottom: 30px;
     margin-left: 35px;
     font-weight: bold;
@@ -535,12 +550,12 @@
    
 }
 
-.Courses .Text-header2 p{
+.Courses_header .Text-header2 p{
     font-size: 25px;
     font-weight: bold;
 }
 
-.Courses .Wrapper{
+ .Wrapper{
      display: flex ;
      position: relative;
      flex-wrap: wrap;
@@ -558,11 +573,9 @@
      text-align: left;
      align-content: center;
      align-items: center;
-     justify-content: space-between;
-     
-    
+     justify-content: space-between;   
 }
-.Courses .background1{
+.Courses1 .background1{
     position: absolute;
     height: 100px;
     width: 730px;
@@ -572,7 +585,7 @@
     z-index: -1;
     box-shadow: -10px 10px 10px rgb(65, 64, 64);
 }
-.Courses .background2{
+.Courses2 .background2{
     position: absolute;
     height: 100px;
     width: 730px;
@@ -583,7 +596,7 @@
     box-shadow: -10px 10px 10px rgb(65, 64, 64);
 }
 
-.Courses .Wrapper .Accredit1{
+.Courses1 .Wrapper .Accredit1{
     position: absolute;
     height: 95px;
     width: 150px;
@@ -594,7 +607,7 @@
     
 }
 
-.Courses .Wrapper .Accredit2{
+.Courses1 .Wrapper .Accredit2{
     position: absolute;
     height: 120px;
     width: 150px;
@@ -604,7 +617,7 @@
     z-index: 5;
     
 }
-.Courses .Wrapper .Accredit3{
+.Courses1 .Wrapper .Accredit3{
     position: absolute;
     height: 120px;
     width: 150px;
@@ -615,15 +628,17 @@
     
 }
 
-.Courses .individual-1{
+ .individual-1, .individual-2, .individual-3{
+    display: flex;
+    position: relative;
     margin: 40px 30px;
     height: 400px;
-    display: flex;
     justify-content: space-between;
     padding: 5px ;
     margin-bottom: 50px;
     margin-top: 0px;
  }
+
  
 .card{
     
@@ -716,27 +731,24 @@
      align-items: center;
      align-content: center;
      gap: 30px;
-     width: 300px;
      height: 400px;
      padding-left: 25px;
      padding-right: 30px;
      margin-left: 30px;
-     
-     
  }
   .max-width{
       max-width: 1300px;
       margin: auto;
   }
   .Individual{
+    position: relative;
     width: 300px;
     height: 400px;
-    position: relative;
     border: 1px solid rgb(109, 108, 108);
     
   }
   img{
-    width: 100%S;
+    width: 100%;
     height: 240px;
   }
   .name{
@@ -771,7 +783,7 @@
     left: 0;
     right: 0;
     overflow: hidden;
-    width: 290px;
+    width: 280px;
     height: 0;
     transition: .5s ease;
 }
@@ -794,21 +806,21 @@
       background-image: linear-gradient(0deg, #fd0707, transparent ); 
       border-bottom: 10px solid #950202 ;
 }
-.Individual .text1 {
+.Individual .text1 p{
     color: rgb(241, 230, 230);
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
 
-/* ---------------------------------------------End of effects------------- ---- */
+/* --------------------------End of effects---------------- */
 
 /* -------- Footer ----------------*/
 
@@ -908,45 +920,922 @@ ul{
 @media (max-width: 1920px){
     .max-width{
 		margin-left: 0px;
+    }
+    .menu-button{
+		display: none;
+		z-index: 999;
+		
 	}
 }
-
 @media (max-width: 1104px){
-    main .content .max-width .row .cols{
-        display: block;
+    
+    .Grid-herosection{
+      
+        display: grid;
+        grid-template-rows: 330px 80px 200px 130px 20px;
+        grid-template-columns:360px 350px 140px 200px 140px; 
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+    
+    .Grid-herosection .HeroDesign .grid-Image{
+        width: 900px;
+        margin-top: 30px;  
+        align-items: center;
+        left: 20px;
+    }
+    .Grid-herosection .HeroDesign .ContactUs_text{
+        position: absolute;
+        top:260px;
+        left: 730px;
+        width: 300px; 
+        height: 100px;
+    }
+        
+    .Grid-herosection .Grid-header .header_text{
+        position: absolute;
+        height: 170px;
+        width: 970px;
+        left: 110px;
+        
+    }
+    
+    
+    .Content .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-between;  
+        gap: 5px;
+        
+        
+   }
+   .text-content{
+       margin: 0px 0px;
+       justify-content: space-between;
+       width: 310px;
+       padding-left: 0px;
+   }
+   .text-content p{
+       font-size: 14px;
+   }
+   .skill-list{
+      padding-left: 5px;
+   }
+   .skill-list ul li{
+     font-size: 14px;
+   }
+    
+    .grid-content .cols .img2, .img0{
+        display: none;
+    }
+    .row .cols .Check{      
+        width: 310px;    
     }
 
-    .content .max-width .row{
-        display: block;
-    }
-    .row .cols .text-content p{
-        font-size: 15px;
-    }
-    .row .cols .text-content{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+    .overlay-1, .overlay-2, .overlay-3, .overlay-4{     
+        width: 200px;
+   } 
 
-     .row .cols .Program_title {
-        font-size: 18px;
-        padding-left: 10px;
-     }  
+   .text1 p{
+       font-size: 14px;
+   }
 }
 
 @media (max-width: 991px){
-    main .content .max-width .row .colst{
-        font-size: 10px;
+   
+     
+.nav_bar .max-width  ul{
+   
+    font-size: 16px;  
+     
+}
+
+    .Grid-herosection{
+      
+        display: grid;
+        grid-template-rows: 330px 80px 200px 130px 20px;
+        grid-template-columns:300px 360px 140px 200px 160px; 
+        justify-content: center;
+        padding-bottom: 20px;
+        
     }
-    .Content .grid-content{
+    
+        .Grid-herosection .HeroDesign .grid-Image{
+        width: 900px;
+        margin-top: 30px;  
+        align-items: center;
+        left: 10px;
+    }
+    .Grid-herosection .HeroDesign .ContactUs_text{
+        position: absolute;
+        top:260px;
+        left: 680px;
+        width: 300px; 
+        height: 100px;
+    }
+        
+    .Grid-herosection .Grid-header .header_text{
+        position: absolute;
+        height: 170px;
+        width: 900px;
+        left: 130px;
+        
+    }
+    
+    .Grid-herosection .Grid-header .header_text p{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 70px;
+       
+    }
+
+        
+    .Grid-Item .Form-box .btn-submit{
+        top:340px;
+        left: 150px;
+    }
+        
+             /* --------------- Content Section ----------------- */
+
+    .Content{
+        margin: 40px;
+        
+    }
+    .Content .row {
+         display: block;
+         margin-left: 260px;
+         margin-right: 0px;
+         justify-content: space-between;  
+         gap: 20px;
+    }
+        
+    .cols {
+        margin-bottom: auto;
+        margin-top: 10px;
+        padding: 10px 0px;
+        align-items: center;
+        width: 430px;
+        border: 1px solid green;
+        height: 880px;
+        box-shadow: -25px 25px 35px  black;
+        margin-right:  20px;
+    }
+    .max-width .cols .img1 img{
+        
+        position: absolute;
+        background-position: center;
+        background-attachment: fixed;
+        height: 300px;
+        width: 100%;  
+    }
+        
+    .Content .max-width .row .cols .bgimg1{
+        box-shadow: -25px 25px 35px  black;
+    }
+    
+    .row .cols .Program_title{  
+        font-size: 26px;      
+    }
+    .Content .max-width .row .cols .bgimg1 img{
+        height: 440px;
+        width: 100%;
+       
+    }
+  
+    .row .cols .Check{      
+        top: 510px;
+        padding: 5px;
+        padding-left: 35px;
+        width: 400px;    
+    }
+
+    /* ---------------Highlights and In Demand Courses-------------*/
+
+        
+    .Courses_header .Text-header{
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 10rem;
+        padding-left: 140px;
+        z-index: -1;
+            
+    }
+
+    .Courses_header .Text-header .Cert1{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 270px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert2{
+        height: 250px;
+        width: 80px;
+        top: -5px;
+        left: 380px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert3{
+        height: 250px;
+        width: 80px;
+        top: -15px;
+        left: 500px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert4{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 620px;
+        z-index: 1;
+
+    }
+        
+    .Courses_header .Text-header2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 900px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+  
+
+    .Courses1 .Wrapper{
         display: block;
+        margin-top: 1rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 650px;
+        margin-left: 20px;
+        
+    }
+    
+    .Courses2 .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 650px;
+        margin-left: 20px;
+    }
+    .Wrapper p{
+        padding-top: 10PX;
+    }
+    .Fundamentals, .Intermediate, .Advance {
+        margin-left: 250px;
+    }
+    .Courses1 .background1{
+        
+        height: 100px;
+        width: 600px; 
+        
+    }
+    .Courses2 .background2{
+        
+        height: 100px;
+        width: 600px; 
+    }
+     .Accredit1, .Accredit2, .Accredit13{
+        display: none;
+     }
+     .individual-1, .individual-2, .individual-3{
+        flex-direction: column;
+        margin: 10px;
+        height: 400px;
+        padding: 5px ;
+        margin-bottom: 10px;
+        
+    }
+    .Courses1{
+        height: 295vh;
+        
+    }
+    .Courses2 {
+        height: 295vh;
+        
+    }
+    
+    .Courses2_cont{
+        height: 270vh;
+        
+    }
+    
+    .card{
+        width: 400px;
+        margin: 20px;
+    }
+    .card img{
+        width: 400px;
+        
+    }
+    /* ------------- Testimonial ------------*/
+    .testimonial{
+        margin-left: 0px;
+        
+    }
+    .testimonial-content{
+       
+        margin-left: 0px;
+        gap: 0px;
+    }
+        
+    .overlay-1, .overlay-2, .overlay-3, .overlay-4{     
+         width: 188px;
     } 
+
+    .Individual{
+        margin: 20px;  
+    }
+
+    .Individual img{
+        width: 170px;
+        height: 240px;
+    }
+
+    .text1 p{
+        font-size: 15px;
+    }
+
+    /* ------------- Footer ------------*/
+
+    .Footer-col .media-links{
+        flex-direction: column;
+    }
+    .Footer-col{
+        width: 25%;
+        padding-left: 15px;
+        
+    }
+}
+@media (max-width: 947px){
+    .menu-button{
+        display: block;
+        z-index: 999;
+        margin-right: 1%;
+        
+    }
+    .menu-button img{
+        height: 45px;
+        width: 50px;
+    }
+     .nav_bar .list {
+        
+       	position: fixed;
+		width: 100%;
+		background: black;
+		opacity: 80%;
+		left: -120%;
+		right: 0px;
+		top: 0px;
+		text-align: center;
+        padding-top: 50px ;
+        padding-bottom: 20px;
+		transition: all 0.3s ease ;
+    }
+    .nav_bar .list.active {
+        left: 0%;
+	 }
+    .nav_bar .list li{
+    	display: block;
+    }
+    .nav_bar .list li a{
+    	display: inline-block;
+    	margin: 20px;
+    	font-size: 18px;
+    	color: white;
+    }
 }
 @media (max-width: 690px){
-    .Content .grid-content{
+   
+        
+    .Grid-herosection{
+      
+        display: grid;
+        grid-template-rows: 330px 80px 200px 130px 20px;
+        grid-template-columns:100px 140px 140px 200px 160px; 
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+    
+    .Grid-herosection .HeroDesign .grid-Image{
+        width: 900px;
+        margin-top: 30px;  
+        align-items: center;
+        left: 10px;
+    }
+    .Grid-herosection .HeroDesign .ContactUs_text{
+        position: absolute;
+        top:260px;
+        left: 265px;
+        width: 300px; 
+        height: 100px;
+    }
+        
+    .Grid-herosection .Grid-header .header_text{
+        position: absolute;
+        height: 170px;
+        width: 600px;
+        left: 80px;
+        
+    }
+    
+    .Grid-herosection .Grid-header .header_text p{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 120px;
+       
+    }
+
+        
+    .Grid-Item .Form-box .btn-submit{
+        top:340px;
+        left: 150px;
+    }
+        
+             /* --------------- Content Section ----------------- */
+
+    .Content{
+        margin: 40px;
+        
+    }
+    .Content .row {
+         display: block;
+         margin-left: 80px;
+         margin-right: 0px;
+         justify-content: space-between;  
+         gap: 20px;
+    }
+        
+    .cols {
+        margin-bottom: auto;
+        margin-top: 10px;
+        padding: 10px 0px;
+        align-items: center;
+        width: 430px;
+        border: 1px solid green;
+        height: 880px;
+        box-shadow: -25px 25px 35px  black;
+        margin-right:  20px;
+    }
+    .max-width .cols .img1 img{
+        
+        position: absolute;
+        background-position: center;
+        background-attachment: fixed;
+        height: 300px;
+        width: 100%;  
+    }
+        
+    .Content .max-width .row .cols .bgimg1{
+        box-shadow: -25px 25px 35px  black;
+    }
+    
+    .row .cols .Program_title{  
+        font-size: 26px;      
+    }
+    .Content .max-width .row .cols .bgimg1 img{
+        height: 440px;
+        width: 100%;
+       
+    }
+  
+    .row .cols .Check{      
+        top: 510px;
+        padding: 5px;
+        padding-left: 35px;
+        width: 400px;    
+    }
+
+    /* ---------------Highlights and In Demand Courses-------------*/
+
+        
+    .Courses_header .Text-header{
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 10rem;
+        padding-left: 30px;
+        z-index: -1;
+            
+    }
+
+    .Courses_header .Text-header .Cert1{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 110px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert2{
+        height: 250px;
+        width: 80px;
+        top: -5px;
+        left: 210px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert3{
+        height: 250px;
+        width: 80px;
+        top: -15px;
+        left: 320px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert4{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 420px;
+        z-index: 1;
+
+    }
+        
+    .Courses_header .Text-header2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 430px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+
+  
+
+    .Courses1 .Wrapper{
         display: block;
+        margin-top: 1rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 400px;
+        margin-left: 120px;
+        
+    }
+    
+    .Courses2 .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 400px;
+        margin-left: 120px;
+    }
+    .Wrapper p{
+        padding-top: 10PX;
+    }
+    .Fundamentals, .Intermediate, .Advance {
+        margin-left: 80px;
+    }
+    .Courses1 .background1{
+        
+        height: 100px;
+        width: 350px; 
+        
+    }
+    .Courses2 .background2{
+        
+        height: 100px;
+        width: 350px; 
+    }
+    
+     .individual-1, .individual-2, .individual-3{
+        flex-direction: column;
+        margin: 10px;
+        height: 400px;
+        padding: 5px ;
+        margin-bottom: 10px;
+        
+    }
+    .Courses1{
+        height: 295vh;
+        
+    }
+    .Courses2 {
+        height: 295vh;
+        
+    }
+    
+    .Courses2_cont{
+        height: 270vh;
+        
+    }
+    
+    .card{
+        width: 400px;
+        margin: 20px;
+    }
+    .card img{
+        width: 400px;
+        
+    }
+    /* ------------- Testimonial ------------*/
+    .testimonial{
+        height: 270vh;
+        
+    }
+    .testimonial-content{
+        display: block;
+        margin-left: 10px;
+    }
+        
+    .overlay-1, .overlay-2, .overlay-3, .overlay-4{     
+         width: 300px;
     } 
+
+    .Individual{
+        margin: 20px;
+        margin-left: 130px;
+    }
+    /* ------------- Footer ------------*/
+
+    .Footer-col .media-links{
+        flex-direction: column;
+    }
+    .Footer-col{
+        width: 25%;
+        padding-left: 15px;
+        
+    }
 }
 
 @media (max-width: 500px){
     
+        
+    .Grid-herosection{
+      
+        display: grid;
+        grid-template-rows: 330px 80px 200px 130px 20px;
+        grid-template-columns:100px 140px 140px 200px 160px; 
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+    
+    .Grid-herosection .HeroDesign .grid-Image{
+        width: 900px;
+        margin-top: 30px;  
+        align-items: center;
+        left: 10px;
+    }
+    .Grid-herosection .HeroDesign .ContactUs_text{
+        position: absolute;
+        top:260px;
+        left: 265px;
+        width: 300px; 
+        height: 100px;
+    }
+        
+    .Grid-herosection .Grid-header .header_text{
+        position: absolute;
+        height: 170px;
+        width: 500px;
+        left: 140px;
+        
+    }
+    
+    .Grid-herosection .Grid-header .header_text p{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 120px;
+       
+    }
+
+        
+    .Grid-Item .Form-box .btn-submit{
+        top:340px;
+        left: 150px;
+    }
+        
+             /* --------------- Content Section ----------------- */
+
+    .Content{
+        margin: 40px;
+    }
+    .Content .row {
+         display: block;
+         margin-left: 0px;
+         margin-right: 0px;
+         justify-content: space-between;  
+         gap: 20px;
+    }
+        
+    .cols {
+        margin-bottom: auto;
+        margin-top: 10px;
+        padding: 10px 0px;
+        align-items: center;
+        width: 430px;
+        border: 1px solid green;
+        height: 880px;
+        box-shadow: -25px 25px 35px  black;
+        margin-right:  20px;
+    }
+    .max-width .cols .img1 img{
+        
+        position: absolute;
+        background-position: center;
+        background-attachment: fixed;
+        height: 300px;
+        width: 100%;  
+    }
+        
+    .Content .max-width .row .cols .bgimg1{
+        box-shadow: -25px 25px 35px  black;
+    }
+    
+    .row .cols .Program_title{  
+        font-size: 26px;      
+    }
+    .text-content{
+        margin: 0px 0px;
+        justify-content: space-between;
+        width: 400px;
+        padding-left: 0px;
+    }
+    .text-content p{
+        font-size: 14px;
+    }
+
+    .Content .max-width .row .cols .bgimg1 img{
+        height: 440px;
+        width: 100%;
+       
+    }
+  
+    .row .cols .Check{      
+        top: 510px;
+        padding: 5px;
+        padding-left: 35px;
+        width: 400px;    
+    }
+
+    /* ---------------Highlights and In Demand Courses-------------*/
+
+        
+    .Courses_header .Text-header{
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 10rem;
+        padding-left: 30px;
+        z-index: -1;
+            
+    }
+
+    .Courses_header .Text-header .Cert1{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 30px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert2{
+        height: 250px;
+        width: 80px;
+        top: -5px;
+        left: 130px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert3{
+        height: 250px;
+        width: 80px;
+        top: -15px;
+        left: 240px;
+        z-index: 1;
+
+    }
+
+    .Courses_header .Text-header .Cert4{
+        height: 250px;
+        width: 80px;
+        top: 0px;
+        left: 340px;
+        z-index: 1;
+
+    }
+        
+    .Courses_header .Text-header2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 430px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+  
+
+    .Courses1 .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        width: 400px;
+        
+    }
+    
+    .Courses2 .Wrapper{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        width: 400px;
+        
+    }
+    .Wrapper p{
+        padding-top: 10PX;
+    }
+        
+    .Courses1 .background1{
+        
+        height: 100px;
+        width: 350px; 
+        
+    }
+    .Courses2 .background2{
+        
+        height: 100px;
+        width: 350px; 
+    }
+    
+    
+    .Fundamentals, .Intermediate, .Advance {
+        margin-left: 0px;
+    }
+     .individual-1, .individual-2, .individual-3{
+        flex-direction: column;
+        margin: 10px;
+        height: 400px;
+        padding: 5px ;
+        margin-bottom: 10px;
+        
+    }
+    .Courses1{
+        height: 295vh;
+        margin-left: 15px;
+    }
+    .Courses2 {
+        height: 295vh;
+        margin-left: 15px;
+    }
+    
+    .Courses2_cont{
+        height: 270vh;
+        margin-left: 15px;
+    }
+    
+    .card{
+        width: 400px;
+        margin: 20px;
+    }
+    .card img{
+        width: 400px;
+        
+    }
+    /* ------------- Testimonial ------------*/
+    .testimonial{
+        height: 275vh;
+        
+    }
+    .testimonial-content{
+        display: block;
+        
+    }
+     
+    
+    .overlay-1, .overlay-2, .overlay-3, .overlay-4{
+    
+        width: 300px;
+    } 
+    .Individual{
+            margin: 25px; 
+            margin-left: 70px; 
+    }
+    /* ------------- Footer ------------*/
+
+    .Footer-col .media-links{
+        flex-direction: column;
+    }
+    .Footer-col{
+        width: 25%;
+        padding-left: 15px;
+        
+    }
+
 }
