@@ -1954,7 +1954,7 @@ ul{
         margin-top: 1rem;
         margin-left: 0px;
         margin-bottom: 0px;
-        width: 285px; 
+        width: 350px; 
     }
     .Courses1 .background1{       
         height: 100px;
@@ -1962,7 +1962,7 @@ ul{
     } 
     .Courses2 .background2{       
         height: 100px;
-        width: 300px;         
+        width: 285px;         
     }
      .Fundamentals, .Intermediate, .Advance {
         margin-left: -30px;
@@ -1971,22 +1971,25 @@ ul{
         width: 350px;
         margin: 20px;
     }
+    card img{
+        width: 350px;
+    }
 
     .Courses1{
-        height: 280vh;
+        height: 260vh;
         margin-left: 15px;
     }
     .Courses2 {
-        height: 280vh;
+        height: 260vh;
         margin-left: 15px;
     }
     
     .Courses2_cont{
-        height: 255vh;
+        height: 235vh;
         margin-left: 15px;
     }
     .testimonial{
-        height: 260vh;   
+        height: 240vh;   
     }
 
 	
