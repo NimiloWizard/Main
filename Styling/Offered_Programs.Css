@@ -1967,6 +1967,27 @@ ul{
      .Fundamentals, .Intermediate, .Advance {
         margin-left: -30px;
     }
+    .card{
+        width: 370px;
+        margin: 20px;
+    }
+
+    .Courses1{
+        height: 280vh;
+        margin-left: 15px;
+    }
+    .Courses2 {
+        height: 280vh;
+        margin-left: 15px;
+    }
+    
+    .Courses2_cont{
+        height: 255vh;
+        margin-left: 15px;
+    }
+    .testimonial{
+        height: 260vh;   
+    }
 
 	
 }
