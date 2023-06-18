@@ -1824,10 +1824,11 @@ ul{
         width: 300px;
     } 
     .Individual{
-            margin: 25px; 
-            margin-left: 70px; 
+        margin: 25px; 
+        margin-left: 70px; 
     }
-    /* ------------- Footer ------------*/
+
+    /* ------------------------------------ Footer --------------------------------*/
 
     .Footer-col .media-links{
         flex-direction: column;
@@ -1839,3 +1840,41 @@ ul{
     }
 
 }
+
+@media (max-width: 480px){
+
+       
+    .Grid-herosection{
+        display: grid;
+        grid-template-rows: 330px 80px 200px 130px 20px;
+        grid-template-columns:100px 140px 140px 200px 200px; 
+        justify-content: center;
+        padding-bottom: 20px;     
+    }
+
+    .Grid-herosection .HeroDesign .ContactUs_text{
+        position: absolute;
+        top:260px;
+        left: 235px;
+        width: 300px; 
+        height: 100px;
+    }
+    .Grid-herosection .Grid-header .header_text{
+        position: absolute;
+        height: 170px;
+        width: 500px;
+        left: 170px;
+    }
+   
+   /* --------------------------------  Content Section --------------------------------------*/
+
+    .Content .row {
+        display: block;
+        margin-left: -20px;
+        margin-right: 0px;
+        justify-content: space-between;  
+        gap: 20px;
+   }
+    
+}
+
