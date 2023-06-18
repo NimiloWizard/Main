@@ -1892,7 +1892,7 @@ ul{
     .row .cols .Check{      
         top: 510px;
         padding: 5px;
-        padding-left: 23px;
+        padding-left: 28px;
         width: 350px;      
     }
     .Courses_header .Text-header .Cert1{
@@ -1907,7 +1907,7 @@ ul{
     .Courses_header .Text-header .Cert2{
         height: 250px;
         width: 80px;
-        top: -15px;
+        top: -10px;
         left: 80px;
         z-index: 1;
 
@@ -1916,7 +1916,7 @@ ul{
     .Courses_header .Text-header .Cert3{
         height: 250px;
         width: 80px;
-        top: -15px;
+        top: -20px;
         left: 180px;
         z-index: 1;
 
