@@ -1856,7 +1856,7 @@ ul{
     .Grid-herosection .HeroDesign .ContactUs_text{
         position: absolute;
         top:260px;
-        left: 255px;
+        left: 260px;
         width: 300px; 
         height: 100px;
     }
@@ -1892,12 +1892,12 @@ ul{
     .row .cols .Check{      
         top: 510px;
         padding: 5px;
-        padding-left: 13px;
-        width: 370px;     
+        padding-left: 18px;
+        width: 350px;      
     }
     .Courses_header .Text-header .Cert1{
         height: 250px;
-        width: 80px;
+        width: 60px;
         top: 0px;
         left: -20px;
         z-index: 1;
@@ -1906,7 +1906,7 @@ ul{
 
     .Courses_header .Text-header .Cert2{
         height: 250px;
-        width: 80px;
+        width: 60px;
         top: -5px;
         left: 80px;
         z-index: 1;
@@ -1915,7 +1915,7 @@ ul{
 
     .Courses_header .Text-header .Cert3{
         height: 250px;
-        width: 80px;
+        width: 60px;
         top: -15px;
         left: 190px;
         z-index: 1;
@@ -1924,7 +1924,7 @@ ul{
 
     .Courses_header .Text-header .Cert4{
         height: 250px;
-        width: 80px;
+        width: 60px;
         top: 0px;
         left: 290px;
         z-index: 1;
