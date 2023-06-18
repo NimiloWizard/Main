@@ -1954,11 +1954,11 @@ ul{
         margin-top: 1rem;
         margin-left: 0px;
         margin-bottom: 0px;
-        width: 350px;
+        width: 285px; 
     }
     .Courses1 .background1{       
         height: 100px;
-        width: 300px;         
+        width: 285px;          
     } 
     .Courses2 .background2{       
         height: 100px;
@@ -1968,7 +1968,7 @@ ul{
         margin-left: -30px;
     }
     .card{
-        width: 370px;
+        width: 350px;
         margin: 20px;
     }
 
