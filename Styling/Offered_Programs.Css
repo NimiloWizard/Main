@@ -1892,7 +1892,7 @@ ul{
     .row .cols .Check{      
         top: 510px;
         padding: 5px;
-        padding-left: 28px;
+        padding-left: 33px;
         width: 350px;      
     }
     .Courses_header .Text-header .Cert1{
@@ -1937,6 +1937,9 @@ ul{
         padding-bottom: 30px;
         padding-top: 20px;
         margin-left: -30px;
+    }
+    .Courses_header .Text-header2 p{
+       padding-left: 0px;
     }
 
 	
