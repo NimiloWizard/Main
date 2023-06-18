@@ -1928,7 +1928,15 @@ ul{
         top: 0px;
         left: 280px;
         z-index: 1;
+    }
 
+     .Courses_header .Text-header2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 420px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-left: -30px;
     }
 
 	
