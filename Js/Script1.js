@@ -4,29 +4,37 @@ $(document).ready(function(){         //htm elements and everything will load fi
 		if(this.scrollY > 20)//if the scroll is already beyond 20px  
 		 {       
 			$('.navbar').addClass("sticky");  // .navbar .sitcky css will take effect
-		
+		    $('.nav_bar').addClass("sticky"); // Offered Program page
 		}
-		else              //but if not > 20, no changes happen
+		else              //but if not > 20, no changes happen in navbar
 			
 		{
 			$('.navbar').removeClass("sticky"); 
+			$('.nav_bar').removeClass("sticky"); // Offered Program page
 		}
     });
 
-    	 $('.menu-button').click(function() {          //upon clicking the menu button
-	        $('.navbar .menu').toggleClass("active") //list will appear
-	        $('.menu-button img').toggleClass("active"); //clicking agin will disappear list   
+    	$('.menu-button').click(function() {          //upon clicking the menu button
+	        $('.navbar .menu').toggleClass("active"); //list will appear
+			$('.menu-button img').toggleClass("active"); //clicking agin will disappear list   
 	    });  
 
 	    $('.navbar .menu li a').click(function(){     //when you select from the list 
 		    $('html').css("scroll-behavior", "smooth"); //it will scroll to the selected item
-		    $('.navbar .menu').toggleClass("active")    //list will disapper
+		    $('.navbar .menu').toggleClass("active");    //list will disapper
 		    $('.deployment .deployment-content .left .text').show(1500);
+		});
 
+		 $('.menu-button').click(function() {             // Offered Program page
+			$('.nav_bar .list').toggleClass("active") ; 
+			$('.menu-button img').toggleClass("active"); 
+		 });  
+		 
+		 $('.nav_bar .list li a').click(function(){     // Offered Program page
+		    $('html').css("scroll-behavior", "smooth"); 
+		    $('.nav_bar .list').toggleClass("active");    
 		 });
 		   
-	   
-
 	    $('.deployment').hover(function(){
 	        $('.deployment .deployment-content .left .text').show(2000);
 	    });  
