@@ -11,13 +11,83 @@
   .page-container{
     width: 100%;
     max-width: 1500px;
-    background: url('Images/Aform1.jpg') no-repeat center center fixed;
+    background: url('images/Aform1.jpg') no-repeat center center fixed;
     opacity: 80%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-    overflow-y: scroll;
+   /* overflow-y: scroll; */
 }
- 
+
+.Media{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+.Media_Dept, .Media_Position{
+  font-size: 17px;
+}
+
+.mySidebar .Home a{
+  font-size: 40px;
+}
+/*
+.grid_row{
+  display: grid; 
+  grid-template-columns: 700px 500px;
+  border: 2px red;
+}  */
+.grid_row{
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  border: 2px red;
+}
+.HRcontainer{
+   margin-left: 400px;
+   border: 2px red;
+}
+.grid_row .HRcontainer h2 a:hover{
+   color: blue;
+}
+.About_container{
+  margin-left: 300px;
+  padding-left: 100px;
+  background-color: rgb(159, 159, 236);
+}
+
+   
+@media (max-width: 500px){
+  .mySidebar{
+    width:100px;
+  }
+  .Media{
+    font-size: 10px;
+  }
+  .Media_Dept, .Media_Position{
+    font-size: 12px;
+  }
+  
+
+	.HRcontainer{
+    margin-left:200px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .HRcontainer a{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px;
+  }
+  .About_container {
+    margin-left: 220px;
+    padding-left: 0px;
+    font-size: 10px;
+  }
+  .About_container h4{
+    font-size: 14px;
+    padding-left: 15px;
+  }
+
+}
