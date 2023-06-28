@@ -21,13 +21,17 @@
    /* overflow-y: scroll; */
 }
 
+.mySidebar .logo img{
+   height: 75px;
+}
+
 .Media{
-  font-size: 16px;
+  font-size: 13px;
   font-weight: normal;
   font-style: normal;
 }
 .Media_Dept, .Media_Position{
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .mySidebar .Home a{
