@@ -67,6 +67,10 @@
 .Trainingcontainer h2 a:hover{
   color: blue;
 }
+.ITcontainer h2 a:hover{
+  color: blue;
+}
+
 
    
 @media (max-width: 500px){
