@@ -48,7 +48,7 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   border: 2px red;
 }
-.HRcontainer, .Marketingcontainer{
+.HRcontainer, .Marketingcontainer, .Acctcontainer{
    margin-left: 400px;
    border: 2px red;
 }
@@ -74,7 +74,7 @@
   }
   
 
-	.HRcontainer, .Marketingcontainer{
+ .HRcontainer, .Marketingcontainer, .Acctcontainer{
     margin-left:130px;
     padding: 10px;
     font-size: 10px;
@@ -96,6 +96,11 @@
     padding-left: 15px;
   }
   .Marketingcontainer a{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px;
+  }
+  .Acctcontainer a{
     font-size: 14px;
     font-weight: bold;
     padding: 25px;
