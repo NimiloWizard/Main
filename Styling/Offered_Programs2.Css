@@ -1942,7 +1942,7 @@ ul{
    
    /* ----------  Content Section ---------------*/
   
-    .Content .row, .Wrapper_Prog2 .row {
+   .Content .row, .Content2 .row {
         display: block;
         margin-left: -28px;
         margin-right: 0px;
