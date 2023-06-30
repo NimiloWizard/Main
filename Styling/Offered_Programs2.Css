@@ -1742,6 +1742,13 @@ ul{
         width: 100%;
        
     }
+     .Wrapper_Prog1{
+        margin-top: -20px;
+   }
+   .Wrapper_Prog2 {
+        margin-top: -30px;
+   }
+   
   
     .row .cols .Check{      
         top: 510px;
@@ -1962,7 +1969,14 @@ ul{
         box-shadow: -25px 25px 35px  black;
         margin-right:  20px;
     }
-    .row .cols .Check{      
+      .Wrapper_Prog1{
+        margin-top: -20px;
+   }
+     .Wrapper_Prog2 {
+        margin-top: -30px;
+   }
+   
+     .row .cols .Check{      
         top: 510px;
         padding: 5px;
         padding-left: 38px;
@@ -2069,10 +2083,10 @@ ul{
     /* ----------  TestimonialsA ---------------*/
 
     .testimonial{
-        height: 200vh;   
+        height: 210vh;   
     }
    .Individual {
         margin: 25px; 
-        margin-left: 0px; 
+        margin-left: 10px; 
     }
 }
