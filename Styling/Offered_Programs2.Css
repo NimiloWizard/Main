@@ -1748,14 +1748,14 @@ ul{
         font-size: 20px;
         height: 150px;
         margin-bottom: 5px;
-        width: 340px;
+        
 
     }
     .Wrapper_Prog2 {
         margin-top: -40px;
         font-size: 20px;
         height: 160px;
-        width: 340px;
+        
     }
    
   
@@ -2101,7 +2101,7 @@ ul{
     /* ----------  TestimonialsA ---------------*/
 
     .testimonial{
-        height: 215vh;   
+        height: 220vh;   
     }
    .Individual {
         margin: 25px; 
