@@ -2069,10 +2069,10 @@ ul{
     /* ----------  TestimonialsA ---------------*/
 
    .Content  .testimonial,  .Content2 .testimonial{
-        height: 220vh;   
+        height: 200vh;   
     }
     .Content .Individual  .Content2 .Individual{
         margin: 25px; 
-        margin-left: 10px; 
+        margin-left: 0px; 
     }
 }
